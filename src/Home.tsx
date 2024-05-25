@@ -29,8 +29,8 @@ const Home = () => {
     },
   })
 
-  return (<>
-    <h1 className="text-3xl font-bold text-blue-500">UK Energy Mix</h1>
+  return (<div>
+    <h1 className="ml-4 mt-4 text-3xl font-bold text-blue-500">UK Energy Mix</h1>
     {isLoading && <div>Cargando gráfica
       <div className="animate-pulse">
         <div className='h-6 bg-gray-200 rounded w-1/2'>
@@ -48,7 +48,7 @@ const Home = () => {
       </div>
     </div>}
 
-  </>)
+  </div>)
 };
 
 
